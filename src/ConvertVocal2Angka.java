@@ -47,4 +47,13 @@ public class ConvertVocal2Angka {
     {
         System.out.println("Kalimat Alay Angka: " + convert);
     }
+    public static void main(String[] args)
+    {
+        String identitas = "Zalsa Aquarista Kusumaningtyas / X RPL 3 / 39";
+        tampilJudul(identitas);
+        String kalimat = tampilInput();
+        String convert = vocal2Angka(kalimat);
+        tampilPerKata(kalimat, convert);
+        tampilHasil(convert);
+    }
 }
