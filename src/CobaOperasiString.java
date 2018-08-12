@@ -18,7 +18,7 @@ import java.util.Locale;
 public class CobaOperasiString {
     public static void main(String[] args)
     {
-        String identitas = "nama lengkap / kelas / no";
+        String identitas = "Zalsa Aquarista Kusumaningtyas / X RPL 3 / 39";
         System.out.println("Identitas: " + identitas);
         
         String x = "operasi";
