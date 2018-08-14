@@ -18,7 +18,7 @@ public class ConvertVocal2Angka {
     private static String tampilInput()
     {
        Scanner scanner = new Scanner(System.in);
-       System.out.println("Masukkan Kalimat: ");
+       System.out.print("Masukkan Kalimat: ");
        String kalimat = scanner.nextLine();
        System.out.println("Kalimat Asli: " + kalimat);
        
